@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Velocity Suave & Investments Ltd - Leaders in construction, engineering, waste management, and real estate development. Explore sustainable solutions with us."
+    />
+    <meta name="author" content="Velocity Suave & Investments Ltd" />
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Velocity Suave & Investments Ltd" />
+    <meta
+      property="og:description"
+      content="Leaders in construction, engineering, waste management, and real estate development. Explore sustainable solutions with us."
+    />
+    <meta property="og:image" content="/assets/img/logo.png" />
+    <meta property="og:url" content="https://velocity.beznet.org" />
+    <title>Velocity Suave & Investments Ltd</title>
+
+    <link rel="icon" type="image/png" href="assets/img/logo2.png" />
+    <!--icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!--slider-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.4/swiper-bundle.css"
+    />
+    <!--tailwind.css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--main CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--parallax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  </head>
+
+  <body>
+    <!--:::::::::::::::::::::-Header-::::::::::::::::::::-->
+    <header
+      class="w-full fixed top-0 left-0 bg-[#090a1a] z-[999] flex justify-between items-center h-16 lg:px-0 px-4"
+    >
+      <a class="text-white block md:hidden" href="#" id="menuOpen">
+        <img src="assets/img/logo2.png" class="h-12 sm:h-16 m-3" alt="logo" />
+      </a>
+      <!--open button-->
+      <button class="text-white cursor-pointer block md:hidden" id="nav-toggle">
+        <i class="fi fi-rr-apps"></i>
+      </button>
+
+      <nav
+        class="w-full visible fixed lg:px-0 md:left-0 left-[-100%] md:block top-0 bg-[#090a1a] lg:bg-transparent md:h-auto md:py-0 h-screen py-5 px-2 z-[100]"
+        id="nav-menu"
+      >
+        <div
+          class="menu_Slider max-w-5xl md:h-auto md:flex md:flex-wrap md:justify-between md:items-center md:mx-auto mx-6 grid gap-8 md:gap-0 lg:gap8 h-full"
+        >
+          <!--close button-->
+          <button
+            class="text-white text-xl block absolute right-6 p-1 cursor-pointer md:hidden"
+            id="menu_hide_btn"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <div>
+            <a href="#" class="flex items-center">
+              <img src="assets/img/logo2.png" class="h-12 sm:h-16 m-3" alt="logo" />
+            </a>
+            <p class="text-white text-base font-semibold cursor-pointer md:hidden">Youtuber</p>
+          </div>
+          <div class="flex md:order-2 order-1">
+            <a
+              class="text-white h-fit bg-[#647bff] cursor-pointer hover:text-[#647bff] relative overflow-hidden z-10 btn__hover focus:outline-none font-medium rounded-lg text-sm px-8 py-3 text-center mr-3 md:mr-0"
+            >
+              WhatsApp
+            </a>
+          </div>
+          <div class="nav__menu justify-between items-center w-full md:flex md:w-auto md:order-1">
+            <ul class="flex flex-col p-4 mt-4 md:flex-row md:mt-0 md:text-base md:font-medium">
+              <li class="my-4 mx-1 md:my-0">
+                <a
+                  href="#home"
+                  class="block md:py-1 md:px-4 text-white md:hover:bg-[#647bff] md:hover:bg-opacity-[0.161] md:hover:text-[#647bff] hover:text-[#647bff] rounded"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="my-4 mx-1 md:my-0">
+                <a
+                  href="#about"
+                  class="block md:py-1 md:px-4 text-white md:hover:bg-[#647bff] md:hover:bg-opacity-[0.161] md:hover:text-[#647bff] hover:text-[#647bff] rounded"
+                  >About</a
+                >
+              </li>
+              <li class="my-4 mx-1 md:my-0">
+                <a
+                  href="#services"
+                  class="block md:py-1 md:px-4 text-white md:hover:bg-[#647bff] md:hover:bg-opacity-[0.161] md:hover:text-[#647bff] hover:text-[#647bff] rounded"
+                >
+                  Services
+                </a>
+              </li>
+              <li class="my-4 mx-1 md:my-0">
+                <a
+                  href="#protfolio"
+                  class="block md:py-1 md:px-4 text-white md:hover:bg-[#647bff] md:hover:bg-opacity-[0.161] md:hover:text-[#647bff] hover:text-[#647bff] rounded"
+                >
+                  Portfolio
+                </a>
+              </li>
+              <li class="my-4 mx-1 md:my-0">
+                <a
+                  href="#contact"
+                  class="block md:py-1 md:px-4 text-white md:hover:bg-[#647bff] md:hover:bg-opacity-[0.161] md:hover:text-[#647bff] hover:text-[#647bff] rounded"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--::::::::::::::::::-hero section-::::::::::::::::::-->
+    <section
+      class="lg:bg-[url('./assets/img/bg.png')] bg-[#090a1a] relative mx-auto bg-center pt-20 lg:pt-36 overflow-hidden"
+      id="home"
+    >
+      <div
+        class="max-w-7xl relative flex justify-center mx-auto flex-col-reverse lg:flex-row lg:justify-between"
+      >
+        <div
+          class="flex flex-col mt-8 justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
+        >
+          <h1 class="text-2xl font-normal leading-none lg:text-5xl text-white sr01">
+            I'm
+            <br />
+            Engr.
+            <span class="font-semibold"> STEPHEN </span>
+          </h1>
+          <span class="mt-3 lg:mx-0 mx-auto w-72 h-[3px] bg-gray-200 rounded sr02"></span>
+          <p class="mt-2 mb-0 lg:mb-8 text-base md:text-lg text-white sr02">
+            Our expertise is estimation, construction, projects management, pre-construction
+            services, consultancy and general contractors
+          </p>
+          <div
+            class="flex justify-center space-y-4 flex-row sm:space-y-0 sm:space-x-4 lg:justify-start"
+          >
+            <a
+              href="assets/profile.pdf"
+              target="_blank"
+              class="flex my-8 lg:my-0 items-center lg:text-lg text-white md:px-8 md:py-4 px-4 py-3 text-sm font-normal rounded bg-[#647bff] hover:bg-[#fff] hover:text-[#647bff] sr03"
+            >
+              <i class="fa-solid fa-cloud-arrow-down flex mr-2"></i>Download Company Profile
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:block hidden absolute">
+          <span class="absolute opacity-10 -top-36 scene" id="scene">
+            <h1 class="text-white font-bold uppercase text-[18rem]" data-depth="0.40">velocity</h1>
+          </span>
+          <span class="absolute w-8 left-56 top-32 scene2" id="scene2">
+            <img src="assets/img/Ellipse 1.png" alt="" data-depth="2.5" />
+          </span>
+          <span class="absolute w-8 left-[72rem] top-[10rem] scene2" id="scene3">
+            <img src="assets/img/Vector 1.png" alt="" data-depth="1.9" />
+          </span>
+          <span class="absolute w-8 left-[40rem] top-[14rem] scene2" id="scene4">
+            <img src="assets/img/Rectangle 1.png" alt="" data-depth="2" />
+          </span>
+        </div>
+
+        <div
+          class="flex items-center relative z-10 justify-center mt-0 mr-0 lg:mr-6 lg:mt-8 h-72 sm:h-80 lg:h-[42rem] xl:h-112 2xl:h-128"
+        >
+          <img
+            src="assets/img/me.png"
+            alt=""
+            class="object-contain h-96 sm:h-80 lg:h-[58rem] xl:h-112 2xl:h-128 sr03"
+          />
+        </div>
+        <div
+          class="absolute flex left-0 right-0 top-auto lg:top-0 lg:left-auto lg:-right-32 bottom-0 justify-center items-center gap-4 lg:rotate-90"
+        >
+          <span class="text-white text-sm font-semibold tracking-widest w-max"> Follow me </span>
+          <span class="w-12 h-[3px] bg-[#647bff] rounded"></span>
+
+          <div class="flex gap-4">
+            <a href="#" class="text-white hover:text-[#647bff] transition duration-100">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="#" class="text-white hover:text-[#647bff] transition duration-100">
+              <i class="fa-brands fa-dribbble"></i>
+            </a>
+
+            <a href="#" class="text-white hover:text-[#647bff] transition duration-100">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#" class="text-white hover:text-[#647bff] transition duration-100">
+              <i class="fa-brands fa-discord"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--::::::::::::::::::-About section-:::::::::::::::::-->
+    <section class="bg-[#090a1a] p-6 mx-auto pb-14 pt-20 lg:pt-32 lg:pb-28" id="about">
+      <div class="flex justify-center text-center mb-20 mt-4 mx-auto">
+        <h2
+          class="text-white font-bold select-none relative inline-block uppercase text-xl md:text-4xl z-10 sr01"
+        >
+          About
+          <span class="text-[#647bff]">US</span>
+          <span
+            class="absolute left-2/4 top-2/4 text-5xl md:text-6xl lg:text-8xl -translate-x-2/4 -translate-y-2/4 z-[-1] opacity-10"
+          >
+            About
+          </span>
+        </h2>
+      </div>
+
+      <div class="max-w-7xl mt-4 relative mx-auto">
+        <div class="flex w-full flex-col md:flex-row sm:justify-center items-center">
+          <div
+            class="w-[250px] md:w-[300px] flex justify-normal items- relative before:hidden before:md:block before:absolute md:before:w-[300px] md:before:h-[300px] before:border-dashed before:border-2 before:border-[#647bff] md:before:-left-7 md:before:top-7 before:rounded-[20px] before:z-[10]"
+          >
+            <img class="rounded-xl object-cover z-20" src="assets/img/me3.jpeg" />
+          </div>
+          <div class="flex flex-col p-5 md:p-0 md:pl-16 md:w-[50%]">
+            <div class="text-white sr02">
+              <h3
+                class="text-lg font-medium mb-2.5 bg-[#647bff] bg-opacity-[0.161] text-[#647bff] rounded px-4 w-max"
+              >
+                The Director
+              </h3>
+              <p class="leading-7 text-sm">
+                Guided by a commitment to excellence and innovation, Velocity Suave & Investments
+                Ltd envisions a future where we lead the way in construction and civil engineering
+                consultancy, setting new standards for sustainable development and environmental
+                responsibility. We aspire to be a global force in waste management, transportation,
+                and real estate, integrating cutting-edge solutions to enhance the communities we
+                serve. Our vision is to continually evolve, leveraging our diverse expertise to
+                create lasting value for our stakeholders, uphold the highest ethical standards, and
+                contribute to the growth and prosperity of Nigeria and beyond.
+              </p>
+              <p class="leading-7 mt-2.5 text-sm">
+                Our goal is to translate your project's vision into innovative construction
+                strategies. Every project is a canvas for creative engineering, and we take pride in
+                our ability to shape your ideas into structures that stand the test of time.
+              </p>
+            </div>
+            <div class="text-white mt-6 sr03">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="flex">
+                  <h5
+                    class="text-base text-white font-medium block lg:block md:flex md:justify-start md:flex-col"
+                  >
+                    <span class="text-[#647bff] font-semibold md:text-lg text-base mr-4">
+                      Phone
+                    </span>
+                    <div class="">07069217189, 08069113673</div>
+                  </h5>
+                </div>
+
+                <div class="flex">
+                  <h5
+                    class="text-base text-white font-medium block lg:block md:flex md:justify-start md:flex-col"
+                  >
+                    <span class="text-[#647bff] font-semibold md:text-lg text-base mr-4">
+                      Email
+                    </span>
+                    umastephen81@gmail.com
+                  </h5>
+                </div>
+                <div class="flex">
+                  <h5
+                    class="text-base text-white font-medium block lg:block md:flex md:justify-start md:flex-col"
+                  >
+                    <span class="text-[#647bff] font-semibold md:text-lg text-base mr-4">
+                      Address
+                    </span>
+                    <div class="">
+                      No. 7, Wanongo Ugbema Street, Off Judges Quarters Makurdi, Benue State Nigeria
+                    </div>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-start mt-5 sr04">
+              <button
+                class="flex text-white border border-[#647bff] w-28 h-14 md:w-32 justify-center items-center relative z-10 overflow-hidden hover:text-[#647bff] hover:border-none btn__hover focus:outline-none rounded-xl text-sm sm:text-base"
+              >
+                <a href="#contact">Contact Me</a>
+              </button>
+              <button
+                class="ml-3 md:ml-8 flex text-white bg-[#647bff] border border-[#647bff] w-28 h-14 md:w-32 justify-center items-center relative z-10 overflow-hidden hover:text-[#647bff] hover:border-none btn__hover focus:outline-none rounded-xl text-sm sm:text-base"
+              >
+                Chat Me Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--:::::::::::::::::-Services section-::::::::::::::::-->
+    <section
+      class="bg-[#090a1a] p-6 mx-auto pb-14 pt-20 lg:pt-32 lg:pb-28 overflow-hidden"
+      id="services"
+    >
+      <div class="flex justify-center text-center mb-20 mt-4 mx-auto">
+        <h2
+          class="text-white font-bold select-none relative inline-block uppercase text-xl md:text-4xl z-10 sr01"
+        >
+          Our
+          <span class="text-[#647bff]">Services</span>
+          <span
+            class="absolute left-2/4 top-2/4 text-5xl md:text-6xl lg:text-8xl -translate-x-2/4 -translate-y-2/4 z-[-1] opacity-10"
+          >
+            Services
+          </span>
+        </h2>
+      </div>
+
+      <div class="max-w-7xl mt-4 relative mx-auto">
+        <div
+          class="max-w-xs md:max-w-[42rem] lg:max-w-[62rem] mx-auto grid grid-cols-1 pt-6 justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6"
+        >
+          <div
+            class="flex flex-col items-center bg-transparent group hover:bg-[#111430] transition ease-in duration-300 rounded-lg p-4 lg:p-8 sr02"
+          >
+            <div
+              class="w-24 h-24 md:w-24 md:h-24 border-4 border-white border-dashed rounded-full overflow-hidden shadow-lg mb-2 md:mb-8"
+            >
+              <img
+                src="assets/img/icon/S_01.png"
+                class="w-full h-full object-cover object-center p-5"
+              />
+            </div>
+
+            <div>
+              <h4
+                class="group-hover:text-[#647bff] text-white transition ease-in duration-300 md:text-lg font-medium text-center"
+              >
+                Construction
+              </h4>
+              <p class="text-white text-sm text-center mt-4 mt:mb-8">
+                We translate your project's vision into innovative construction strategies. Every
+                project is a canvas for creative engineering, and we take pride in our ability to
+                shape your ideas into structures that stand the test of time.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center bg-[#111430] rounded-lg p-4 lg:p-8 sr03">
+            <div
+              class="w-24 h-24 md:w-24 md:h-24 border-4 border-white border-dashed rounded-full overflow-hidden shadow-lg mb-2 md:mb-8"
+            >
+              <img
+                src="assets/img/icon/S_02.png"
+                class="w-full h-full object-cover object-center p-5"
+              />
+            </div>
+
+            <div>
+              <h4 class="text-[#647bff] md:text-lg font-medium text-center">Projects Management</h4>
+              <p class="text-white text-sm text-center mt-4 mt:mb-8">
+                From concept to completion, we are committed to delivering excellence, ensuring that
+                every detail aligns with your vision.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center bg-transparent group hover:bg-[#111430] transition ease-in duration-300 rounded-lg p-4 lg:p-8 sr03"
+          >
+            <div
+              class="w-24 h-24 md:w-24 md:h-24 border-4 border-white border-dashed rounded-full overflow-hidden shadow-lg mb-2 md:mb-8"
+            >
+              <img
+                src="assets/img/icon/S_03.png"
+                class="w-full h-full object-cover object-center p-5"
+              />
+            </div>
+
+            <div>
+              <h4
+                class="group-hover:text-[#647bff] text-white transition ease-in duration-300 md:text-lg font-medium text-center"
+              >
+                Consultancy
+              </h4>
+              <p class="text-white text-sm text-center mt-4 mt:mb-8">
+                Our experience encompasses a wide range of construction methodologies, ensuring the
+                successful execution of projects that adhere to the highest standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--:::::::::::::::::-Projects section-::::::::::::::::-->
+    <section class="bg-[#090a1a] mx-auto pb-14 pt-20 lg:pt-32 lg:pb-28 overflow-hidden">
+      <div class="flex justify-center text-center mb-20 mt-4 mx-auto">
+        <h2
+          class="text-white font-bold select-none relative inline-block uppercase text-xl md:text-4xl z-10 sr06"
+        >
+          Completed
+          <span class="text-[#647bff]">Projects</span>
+          <span
+            class="absolute left-2/4 top-2/4 text-5xl md:text-6xl lg:text-8xl -translate-x-2/4 -translate-y-2/4 z-[-1] opacity-10"
+          >
+            Projects
+          </span>
+        </h2>
+      </div>
+
+      <div class="max-w-7xl px-6 mt-10 relative mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 lg:gap-8 pt-14">
+          <div
+            class="flex flex-col justify-center items-center bg-[#111430] rounded-lg p-4 lg:p-8 sr10"
+          >
+            <div class="w-50 md:w-60 mb-2">
+              <button onclick="project1.showModal()">
+                <img src="assets/img/completed/20230804_102947.jpg" alt="" />
+              </button>
+              <dialog id="project1" class="modal">
+                <div class="modal-box w-11/12 max-w-5xl">
+                  <img src="assets/img/completed/20230804_102947.jpg" alt="" />
+                  <form method="dialog" class="modal-action">
+                    <!-- if there is a button, it will close the modal -->
+                    <button class="btn bg-[#647bff] text-white">Close</button>
+                  </form>
+                </div>
+              </dialog>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center bg-[#111430] rounded-lg p-4 lg:p-8 sr10"
+          >
+            <div class="w-50 md:w-60 mb-2">
+              <button onclick="project2.showModal()">
+                <img src="assets/img/completed/20230804_141656.jpg" alt="" />
+              </button>
+              <dialog id="project2" class="modal">
+                <div class="modal-box w-11/12 max-w-5xl">
+                  <img src="assets/img/completed/20230804_141656.jpg" alt="" />
+                  <form method="dialog" class="modal-action">
+                    <!-- if there is a button, it will close the modal -->
+                    <button class="btn bg-[#647bff] text-white">Close</button>
+                  </form>
+                </div>
+              </dialog>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center bg-[#111430] rounded-lg p-4 lg:p-8 sr10"
+          >
+            <div class="w-50 md:w-60 mb-2">
+              <button onclick="project3.showModal()">
+                <img src="assets/img/completed/20230804_105608.jpg" alt="" />
+              </button>
+              <dialog id="project3" class="modal">
+                <div class="modal-box w-11/12 max-w-5xl">
+                  <img src="assets/img/completed/20230804_105608.jpg" alt="" />
+                  <form method="dialog" class="modal-action">
+                    <!-- if there is a button, it will close the modal -->
+                    <button class="btn bg-[#647bff] text-white">Close</button>
+                  </form>
+                </div>
+              </dialog>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center bg-[#111430] rounded-lg p-4 lg:p-8 sr10"
+          >
+            <div class="w-50 md:w-60 mb-2">
+              <button onclick="project4.showModal()">
+                <img src="assets/img/completed/20230804_125850.jpg" alt="" />
+              </button>
+              <dialog id="project4" class="modal">
+                <div class="modal-box w-11/12 max-w-5xl">
+                  <img src="assets/img/completed/20230804_125850.jpg" alt="" />
+                  <form method="dialog" class="modal-action">
+                    <!-- if there is a button, it will close the modal -->
+                    <button class="btn bg-[#647bff] text-white">Close</button>
+                  </form>
+                </div>
+              </dialog>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--::::::::::::::::-Portfolio section-:::::::::::::::-->
+    <section
+      class="bg-[#090a1a] mx-auto pb-14 pt-20 lg:pt-32 lg:pb-28 overflow-hidden"
+      id="protfolio"
+    >
+      <div class="flex justify-center text-center mb-20 mt-4 mx-auto">
+        <h2
+          class="text-white font-bold select-none relative inline-block uppercase text-xl md:text-4xl z-10 sr06"
+        >
+          Our
+          <span class="text-[#647bff]">Gallery</span>
+          <span
+            class="absolute left-2/4 top-2/4 text-5xl md:text-6xl lg:text-8xl -translate-x-2/4 -translate-y-2/4 z-[-1] opacity-10"
+          >
+            gallery
+          </span>
+        </h2>
+      </div>
+
+      <div class="max-w-7xl mt-4 relative mx-auto">
+        <div class="container flex flex-col justify-center p-4 mx-auto">
+          <div class="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2 sr0">
+            <div class="relative group">
+              <img
+                class="object-cover w-full rounded aspect-square"
+                src="assets/img/gallery/gallery1.jpeg"
+              />
+              <div
+                class="overlay hidden absolute inset-0 bg-black bg-opacity-50 text-white flex-col justify-center items-center group-hover:flex"
+                style="animation: swipe-in 0.3s forwards; transform-origin: top"
+              >
+                <span class="text-sm p-10 text-center">
+                  Send forth of Capt. of Hauptmann Olaf Hoppe Representative of GTAG to Nigeria
+                </span>
+              </div>
+            </div>
+
+            <div class="relative group">
+              <img
+                class="object-cover w-full rounded aspect-square"
+                src="assets/img/gallery/gallery2.jpeg"
+              />
+              <div
+                class="overlay hidden absolute inset-0 bg-black bg-opacity-50 text-white flex-col justify-center items-center group-hover:flex"
+                style="animation: swipe-in 0.3s forwards; transform-origin: top"
+              >
+                <span class="text-sm p-10 text-center">
+                  Commisioning of a counter improved explosive device and remodeling of an explosive
+                  ordinance disposal center
+                </span>
+              </div>
+            </div>
+
+            <div class="relative group">
+              <img
+                class="object-cover w-full rounded aspect-square"
+                src="assets/img/gallery/gallery3.jpeg"
+              />
+              <div
+                class="overlay hidden absolute inset-0 bg-black bg-opacity-50 text-white flex-col justify-center items-center group-hover:flex"
+                style="animation: swipe-in 0.3s forwards; transform-origin: top"
+              >
+                <span class="text-sm p-10 text-center">
+                  Commisioning of a counter improved explosive device and remodeling of an explosive
+                  ordinance disposal center
+                </span>
+              </div>
+            </div>
+
+            <div class="relative group">
+              <img
+                class="object-cover w-full rounded aspect-square"
+                src="assets/img/gallery/gallery4.jpeg"
+              />
+              <div
+                class="overlay hidden absolute inset-0 bg-black bg-opacity-50 text-white flex-col justify-center items-center group-hover:flex"
+                style="animation: swipe-in 0.3s forwards; transform-origin: top"
+              >
+                <span class="text-sm p-10 text-center">Land Survey</span>
+              </div>
+            </div>
+
+            <style>
+              @keyframes swipe-in {
+                from {
+                  transform: scaleY(0);
+                }
+                to {
+                  transform: scaleY(1);
+                }
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--:::::::::::::::::-Team section-::::::::::::::::-->
+    <section class="bg-[#090a1a] mx-auto pb-14 pt-20 lg:pt-32 lg:pb-28 overflow-hidden">
+      <div class="flex justify-center text-center mb-20 mt-4 mx-auto">
+        <h2
+          class="text-white font-bold select-none relative inline-block uppercase text-xl md:text-4xl z-10 sr01"
+        >
+          Meet
+          <span class="text-[#647bff]">Our Team</span>
+          <span
+            class="absolute left-2/4 top-2/4 text-5xl md:text-6xl lg:text-8xl -translate-x-2/4 -translate-y-2/4 z-[-1] opacity-10"
+          >
+            TEAM
+          </span>
+        </h2>
+      </div>
+
+      <div class="max-w-7xl mt-4 relative mx-auto">
+        <div class="container flex flex-col justify-center p-4 mx-auto">
+          <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 sm:grid-cols-2 sr07">
+            <div class="relative">
+              <img
+                class="object-cover w-full rounded aspect-square"
+                src="assets/img/team/team1.jpeg"
+              />
+              <div
+                class="absolute bg-black bg-opacity-50 text-white flex-col justify-start flex top-0 p-3"
+              >
+                <span class="font-semibold">Engr. Uma Terzulum Stephen</span>
+                <span class="text-sm">Director</span>
+              </div>
+            </div>
+            <div class="relative">
+              <img
+                class="object-cover w-full rounded aspect-square"
+                src="assets/img/team/team2.jpeg"
+              />
+              <div
+                class="absolute bg-black bg-opacity-50 text-white flex-col justify-start flex top-0 p-3"
+              >
+                <span class="font-semibold">Engr.Iortyange Philip</span>
+                <span class="text-sm">Project Manager</span>
+              </div>
+            </div>
+            <div class="relative">
+              <img
+                class="object-cover w-full rounded aspect-square"
+                src="assets/img/team/team3.jpeg"
+              />
+              <div
+                class="absolute bg-black bg-opacity-50 text-white flex-col justify-start flex top-0 p-3"
+              >
+                <span class="font-semibold">Engr. Sende Titus </span>
+                <span class="text-sm">Chief Engineer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--:::::::::::::::::-Testimonial section-::::::::::::::::-->
+    <section>
+      <div class="max-w-7xl mt-4 relative mx-auto">
+        <div
+          class="max-w-xs md:max-w-[42rem] lg:max-w-[82rem] mx-auto grid grid-cols-1 pt-6 justify-items-center md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6"
+        >
+          <div class="flex flex-col items-center rounded-lg p-4 lg:p-8 sr02">
+            <img src="assets/img/testimonials/rcn.png" alt="" />
+
+            <div>
+              <!-- Testimonial 1 -->
+              <!-- <h4
+          class="text-[#647bff] transition ease-in duration-300 md:text-lg font-medium text-center"
+        >
+          Becky Abraham
+        </h4> -->
+              <p class="text-white text-sm text-center mt-4 mt:mb-8">
+                "The outstanding workmanship displayed in every corner of our new building is a
+                testament to the dedication and expertise of the construction team."
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-lg p-4 lg:p-8 sr03">
+            <img src="assets/img/testimonials/lla.png" alt="" />
+
+            <div>
+              <!-- Testimonial 2 -->
+              <!-- <h4 class="text-[#647bff] md:text-lg font-medium text-center">Paul Adams</h4> -->
+              <p class="text-white text-sm text-center mt-4 mt:mb-8">
+                "We are thrilled with exceptional quality and Craftsmanship exhibited throughout the
+                building project. It's not just a structure; it's a work of art"
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-lg p-4 lg:p-8 sr03">
+            <img src="assets/img/testimonials/army.png" alt="" />
+
+            <div>
+              <!-- Testimonial 3 -->
+              <!-- <h4 class="text-[#647bff] md:text-lg font-medium text-center">James Scott</h4> -->
+              <p class="text-white text-sm text-center mt-4 mt:mb-8">
+                "Kudos to the team for delivering our project on time and on budget. Their
+                professionalism and attention to detail made the entire process smooth."
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-lg p-4 lg:p-8 sr03">
+            <img src="assets/img/testimonials/jb.svg" alt="" />
+
+            <div>
+              <!-- Testimonial 4 -->
+              <!-- <h4 class="text-[#647bff] md:text-lg font-medium text-center">John Brown</h4> -->
+              <p class="text-white text-sm text-center mt-4 mt:mb-8">
+                "The team's dedication and attention to detail made our project a success. We are
+                extremely satisfied with the results."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="max-w-7xl mt-4 relative mx-auto">
+        <div class="mockup-window border bg-base-300 mx-5">
+          <div class="flex justify-center px-4 py-16 bg-base-200">
+            <iframe
+              class="w-full aspect-video"
+              src="https://www.youtube.com/embed/t83JnSPf_K8?si=2_vE64rRmaq_W0vw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--:::::::::::::::::-Contact section-::::::::::::::::-->
+    <section
+      class="bg-[#090a1a] mx-auto pb-14 pt-20 lg:pt-32 lg:pb-28 overflow-hidden"
+      id="contact"
+    >
+      <div class="flex justify-center text-center mb-20 mt-4 mx-auto">
+        <h2
+          class="text-white font-bold select-none relative inline-block uppercase text-xl md:text-4xl z-10 sr01"
+        >
+          Contact
+          <span class="text-[#647bff]">Me</span>
+          <span
+            class="absolute left-2/4 top-2/4 text-5xl md:text-6xl lg:text-8xl -translate-x-2/4 -translate-y-2/4 z-[-1] opacity-10"
+          >
+            Contact
+          </span>
+        </h2>
+      </div>
+
+      <div class="max-w-md md:max-w-[50rem] px-4 sm:px-0 lg:w-1/2 md:w-2/3 mx-auto pt-10">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-full sr02">
+            <div class="relative">
+              <input
+                type="text"
+                id="name"
+                placeholder="Your Name*"
+                class="w-full bg-[#2d2d53] rounded-xl border border-[#2d2d53] focus:border-indigo-500 outline-none text-white py-4 px-6 sm:py-5 sm:px-8 placeholder-white text-base font-light transition-colors duration-200 ease-in-out"
+              />
+            </div>
+          </div>
+          <div class="p-2 w-full sr03">
+            <div class="relative">
+              <input
+                type="email"
+                id="email"
+                placeholder="Email Address*"
+                class="w-full bg-[#2d2d53] rounded-xl border border-[#2d2d53] focus:border-indigo-500 outline-none text-white py-4 px-6 sm:py-5 sm:px-8 placeholder-white text-base font-light transition-colors duration-200 ease-in-out"
+              />
+            </div>
+          </div>
+          <div class="p-2 w-full sr04">
+            <div class="relative">
+              <textarea
+                id="message"
+                name="message"
+                class="w-full h-52 bg-[#2d2d53] rounded-xl border border-[#2d2d53] focus:border-indigo-500 outline-none text-white py-5 px-8 placeholder-white text-base font-light transition-colors duration-200 ease-in-out"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="p-2 w-full sr05">
+            <button
+              class="btn__hover flex mx-auto text-white hover:text-black bg-indigo-500 border-0 py-2 px-10 focus:outline-none rounded-lg text-lg relative overflow-hidden z-10"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--:::::::::::::::::-Sub section-::::::::::::::::-->
+
+    <section class="bg-[#090a1a] mx-auto pb-14 pt-20 lg:pt-32 lg:pb-28 overflow-hidden">
+      <div class="px-4 max-w-6xl sm:px-6 mx-auto">
+        <div class="md:px-12 md:py-16 px-4 sm:px-8 py-10 relative bg-[#111430] rounded-lg">
+          <div class="lg:flex-row justify-between items-center flex-col flex relative">
+            <div class="lg:mb-0 lg:mr-16 text-center mb-6 sr06">
+              <h3 class="sm:text-3xl text-xl font-semibold text-white">Subscribe Now Free:)</h3>
+            </div>
+
+            <form action="#" class="text-3xl font-semibold text-white">
+              <div class="lg:max-w-none sm:flex-row max-w-md justify-center flex mx-auto">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Email Address*"
+                  class="w-full bg-[#2d2d53] mr-5 rounded-xl border text-white border-[#2d2d53] focus:border-indigo-500 outline-none py-4 px-6 placeholder-white text-base font-light transition-colors duration-200 ease-in-out sr07"
+                />
+                <a
+                  href="#"
+                  class="items-center justify-center btn__hover flex mx-auto text-white hover:text-black bg-indigo-500 border-0 py-0 px-8 focus:outline-none rounded-xl text-base font-medium relative overflow-hidden z-10 sr08"
+                >
+                  Subscribe
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--:::::::::::::::::-Footer section-::::::::::::::::-->
+    <section class="bg-[#090a1a] mx-auto pb-14 pt-20 lg:pt-32 overflow-hidden">
+      <div class="mt-10 relative mx-auto">
+        <div class="max-w-2xl mx-auto text-white py-10">
+          <div class="text-center">
+            <h3 class="sm:text-2xl text-lg mb-3 sr01">Thank you so much for coming to</h3>
+            <h3 class="text-3xl mb-3 font-semibold sr02">Velocity Suave & Investments</h3>
+            <p class="sr03">Where we work together to build your dream</p>
+            <!-- <div class="flex justify-center my-10">
+              <div class="flex justify-center items-center border rounded-lg px-4 py-2 mx-2 sr04">
+                <img src="assets/img/icon/youtube.png" class="w-7 md:w-8" />
+                <div class="text-left ml-3">
+                  <p class="text-xs text-gray-200">2,000 Subscribe</p>
+                  <p class="text-sm md:text-base">youtube</p>
+                </div>
+              </div>
+              <div class="flex justify-center items-center border rounded-lg px-4 py-2 mx-2 sr05">
+                <img src="assets/img/icon/facebook.png" class="w-7 md:w-8" />
+                <div class="text-left ml-3">
+                  <p class="text-xs text-gray-200">ZZK Follower</p>
+                  <p class="text-sm md:text-base">Facebook</p>
+                </div>
+              </div> -->
+          </div>
+        </div>
+        <div
+          class="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400"
+        >
+          <p class="order-2 md:order-1 mt-8 md:mt-0 sr09">
+            &copy; Velocity Suave & Investments, 2022.
+          </p>
+          <div class="order-1 md:order-2 sr10">
+            <span class="px-2">About us</span>
+            <span class="px-2 border-l">Contact us</span>
+            <span class="px-2 border-l">Privacy Policy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---scrollreveal--->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!---slider js--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.4/swiper-bundle.min.js"></script>
+    <!---main js--->
+    <script src="assets/js/js.js"></script>
+  </body>
+</html>

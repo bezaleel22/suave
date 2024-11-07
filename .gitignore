@@ -1,0 +1,144 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for npm package modules
+jspm_packages/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# TypeScript build output
+/dist
+/build
+/.typescript/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# JetBrains IDEs (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+
+# Operating System Files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Ruby
+/.bundle
+/log
+/tmp
+*.gem
+*.rbc
+capybara-*.html
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# C/C++ build results
+*.o
+*.out
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.a.out
+
+# TeX files
+*.aux
+*.bbl
+*.blg
+*.log
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.out
+
+# Android Studio
+.idea/
+.gradle/
+build/
+local.properties
+
+# iOS/Swift
+*.xcuserstate
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# Docker
+**/Dockerfile*
+**/docker-compose*
+*.dockerignore
+*.img
+*.tar
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Composer (PHP)
+vendor/
+
+# Eclipse IDE
+.project
+.classpath
+.cproject
+
+# Other build directories
+build/
+dist/
+
+# Miscellaneous
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.bak
+*.tmp
+
+# .env files (Never commit sensitive data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# JetBrains IDEs
+.idea/
